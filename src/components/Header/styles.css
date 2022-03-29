@@ -1,0 +1,32 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,400;1,600&family=Inter&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,400;1,600&family=Inter&family=Pacifico&display=swap');
+
+header {
+    font-family: 'Pacifico', cursive;
+    background-color:rgb(112, 112, 112)   ; /* rgb(27, 32, 36); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    color: whitesmoke;
+    padding: 0 30px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+
+}
+
+.item-menu{
+
+    margin: 0 20px;
+    margin-right: 50px;
+    font-size: 1.3rem;
+    
+}

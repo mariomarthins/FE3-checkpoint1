@@ -1,0 +1,9 @@
+.redes{
+    background-color:rgb(112, 112, 112);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    position: sticky;
+    bottom: 0;
+}

@@ -1,0 +1,45 @@
+.ferramentas{
+    background-color: #2f596d;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.ferramentas > h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.container-img{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-hability{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    opacity: 0.7;
+    filter: brightness(0.7);
+}
+
+.img-hability:hover {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.2);
+    opacity: 1;
+    filter: brightness(1.2);
+}
+
+
+
